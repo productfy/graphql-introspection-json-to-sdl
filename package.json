@@ -1,7 +1,15 @@
 {
-  "name": "graphql-introspection-json-to-sdl",
-  "version": "1.1.0",
+  "name": "@productfy/graphql-introspection-json-to-sdl",
+  "version": "1.0.3",
   "description": "Prints the GraphQL schema SDL from a GraphQL schema JSON introspection",
+  "release": {
+    "branches": [
+      "master"
+    ],
+    "plugins": [
+      "@semantic-release/npm"
+    ]
+  },
   "bin": "dist/index.js",
   "files": [
     "README.md",
@@ -14,18 +22,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/potatosalad/graphql-introspection-json-to-sdl.git"
+    "url": "git+https://github.com/productfy/graphql-introspection-json-to-sdl.git"
   },
-  "author": "Andrew Bennett <potatosaladx@gmail.com>",
+  "author": "Bao Ngo <bingo@productfy.io>",
   "license": "MIT",
   "dependencies": {
     "graphql": "^15.4.0",
     "minimist": "^1.2.5"
   },
   "devDependencies": {
+    "@semantic-release/npm": "^7.0.8",
     "@types/graphql": "^14.5.0",
     "@types/minimist": "^1.2.1",
     "@types/node": "^14.14.9",
+    "semantic-release": "^17.2.4",
     "typescript": "^4.1.2"
   }
 }
