@@ -11,6 +11,9 @@
       "@semantic-release/npm"
     ]
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "dist/index.js",
   "files": [
     "README.md",
