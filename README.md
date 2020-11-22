@@ -1,6 +1,6 @@
 # graphql-introspection-json-to-sdl
 
-[![npm version](https://badge.fury.io/js/graphql-introspection-json-to-sdl.svg)](https://badge.fury.io/js/graphql-introspection-json-to-sdl)
+[![npm version](https://badge.fury.io/js/%40productfy%2Fgraphql-introspection-json-to-sdl.svg)](https://badge.fury.io/js/%40productfy%2Fgraphql-introspection-json-to-sdl)
 
 Prints the GraphQL schema SDL from a GraphQL schema JSON introspection.
 
