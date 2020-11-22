@@ -1,5 +1,6 @@
 {
   "name": "@productfy/graphql-introspection-json-to-sdl",
+  "private": false,
   "version": "1.0.3",
   "description": "Prints the GraphQL schema SDL from a GraphQL schema JSON introspection",
   "release": {
@@ -16,8 +17,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
-    "prepublish": "npm run build && chmod +x dist/index.js",
+    "build": "tsc && chmod +x dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
