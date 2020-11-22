@@ -4,7 +4,7 @@
   "description": "Prints the GraphQL schema SDL from a GraphQL schema JSON introspection",
   "release": {
     "branches": [
-      "master"
+      "main"
     ],
     "plugins": [
       "@semantic-release/npm"
